@@ -11,6 +11,8 @@ const options = {
   },
   mesh: {
     auto: true,
+    host: envs.TILSKUDD_STATS_WEB_HOST || '127.0.0.1',
+    bases: [envs.TILSKUDD_STATS_BASE_HOST || '127.0.0.1:39999'],
     listen: [
       {pin: 'role:info, info:queue, msg:add', model: 'observe'},
       {pin: 'role:info, info:queue, msg:delete', model: 'observe'},
