@@ -15,9 +15,7 @@ const options = {
     bases: [envs.TILSKUDD_STATS_BASE_HOST || '127.0.0.1:39999'],
     listen: [
       {pin: 'role:info, info:queue, msg:add', model: 'observe'},
-      {pin: 'role:info, info:queue, msg:delete', model: 'observe'},
-      {pin: 'role:info, info:statuslog, msg:add', model: 'observe'},
-      {pin: 'role:info, info:preview', model: 'observe'}
+      {pin: 'role:info, info:queue, msg:delete', model: 'observe'}
     ]
   },
   statsOptions: {
