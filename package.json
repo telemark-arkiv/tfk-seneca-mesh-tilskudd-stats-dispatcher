@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-mesh-tilskudd-stats-dispatcher",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Seneca hub for tilskudd stats",
   "license": "MIT",
   "private": true,
